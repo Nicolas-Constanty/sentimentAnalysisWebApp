@@ -5,13 +5,15 @@
     <title>{{.title}}</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="/public/css/bootstrap-3.3.6.min.css">
+      <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+      <script src="https://www.amcharts.com/lib/3/serial.js"></script>
+      <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+      <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+      <script src="https://www.amcharts.com/lib/3/themes/dark.js"></script>
       <link rel="stylesheet" type="text/css" href="/public/css/customamcharts.css">
       <link rel="shortcut icon" type="image/png" href="/public/img/favicon.png">
-    <script src="/public/js/jquery-2.2.4.min.js"></script>
       <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
       <script src="/public/js/customamcharts.js"></script>
-      <script src="/public/js/bootstrap-3.3.6.min.js"></script>
     {{range .moreStyles}}
       <link rel="stylesheet" type="text/css" href="/public/{{.}}">
     {{end}}
