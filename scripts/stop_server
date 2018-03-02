@@ -1,0 +1,1 @@
+sudo ~/go/bin/revel run github.com/Nicolas-Constanty/mhpsentimentanalysis
