@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /index.html
-    destination: /var/www/html/
+  - source: sentimentAnalysisWebApp
+    destination: ~/go/src/github.com/Nicolas-Constanty/sentimentAnalysisWebApp
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
