@@ -1,6 +1,6 @@
-sudo add-apt-repository ppa:gophers/archive
-sudo apt-get update
-sudo apt-get install golang-1.9-go
+add-apt-repository ppa:gophers/archive
+apt-get update
+apt-get install golang-1.9-go
 mkdir go
 export GOPATH="$HOME/go"
 export PATH="$PATH:$GOPATH/bin"
