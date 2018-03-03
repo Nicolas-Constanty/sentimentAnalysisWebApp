@@ -1,9 +1,10 @@
 sudo add-apt-repository ppa:gophers/archive -y
 sudo apt-get update -y
 sudo apt-get install golang-1.9-go -y
-export PATH="$PATH:/usr/lib/go-1.9/bin/go"
-export GOPATH="$HOME/go"
-export PATH="$PATH:$GOPATH/bin"
+rm -rf .bash_profile
+echo 'export PATH="$PATH:/usr/lib/go-1.9/bin/go"' >> .bash_profile
+echo 'export GOPATH="$HOME/go"' >> .bash_profile
+echo 'export PATH="$PATH:$GOPATH/bin"' >> .bash_profile
 go get github.com/revel/revel
 go get github.com/revel/cmd/revel
 echo "Dependencies successfully installed"
