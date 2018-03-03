@@ -1,1 +1,1 @@
-~/go/bin/revel run github.com/Nicolas-Constanty/sentimentAnalysisWebApp
+sudo ~/go/bin/revel run github.com/Nicolas-Constanty/sentimentAnalysisWebApp
