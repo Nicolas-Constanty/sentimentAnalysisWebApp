@@ -1,8 +1,7 @@
 sudo add-apt-repository ppa:gophers/archive -y
 sudo apt-get update -y
 sudo apt-get install golang-1.9-go -y
-sudo rm -rf /usr/local/bin/go
-sudo ln -s /usr/lib/go-1.9/bin/go /usr/local/bin/go
+export PATH="$PATH:/usr/lib/go-1.9/bin/go"
 export GOPATH="$HOME/go"
 export PATH="$PATH:$GOPATH/bin"
 go get github.com/revel/revel
